@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+  <div class="title"><h1>SPLITTER BILL</h1></div>
+  <div id="container">
+    <div id="bill-info">
+      <h3>Bill</h3>
+      <input type="number" name="Bill" value="0" id="total-bill">
+
+    <h3>Select Tip %</h3>
+    <section>
+      <div>
+        <input type="checkbox" class="tips" name="tips" value="5">
+        <label for="tips">5%</label>
+      </div>
+      <div>
+        <input type="checkbox" class="tips" name="tips" value="10">
+        <label for="tips">10%</label>
+      </div>
+      <div>
+        <input type="checkbox" class="tips" name="tips" value="15">
+        <label for="tips">15%</label>
+      </div>
+      <div>
+        <input type="checkbox" class="tips" name="tips" value="25">
+        <label for="tips">25%</label>
+      </div>
+      <div>
+        <input type="checkbox" class="tips" name="tips" value="50">
+        <label for="tips">50%</label>
+      </div>
+    </section>
+    <p>Number of People: </p>
+    <input type="number" name="nr-people" id="nr-people" value="1">
+    </div>
+
+    <div id="bill-amount">
+      <div>
+        <h2>Tip Amount <br><span> / person</span></h2>
+        <h1 id="tip-amount">$0.00</h1>
+      </div>
+      <div>
+        <h2>Total <br><span> / person</span></h2>
+        <h1 id="total-amount">$0.00</h1>
+      </div>
+      <input type="reset" value="Reset" id="reset">
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

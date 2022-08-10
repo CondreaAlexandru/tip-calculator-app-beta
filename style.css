@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+body {
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    background-color: #C5E4E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+#bill-info {
+    width: 40%;
+    padding: 15px;
+    color: #789EA1;
+}
+
+#total-bill,#nr-people {
+    width: 70%;
+    padding: 5px;
+    border-color: #00474B;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #24C3AD;
+    font-weight: bold;
+    background: url(images/icon-dollar.svg) no-repeat scroll 7px 7px;
+    padding-left:30px;
+}
+
+section {
+    display: inline-flex;
+    width: 70%;
+}
+
+section div {
+    border: 1px solid #00474B;
+    background-color: #00474B;
+    display: inline-flex;
+    margin: 5px;
+    padding: 0px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#bill-amount {
+    width: 40%;
+    background-color: #00474B;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+#bill-amount div {
+    width: 100%;
+    display: inline-flex
+}
+#bill-amount div h2 {
+    float: left;
+    width: 49%;
+    color: white;
+    font-size: 20px;
+}
+
+#bill-amount div span {
+    color: #789EA1;
+    font-size: 14px;
+}
+
+#bill-amount div h1 {
+    width: 49%;
+    float:  right;
+    color: #24C3AD;
+}
+
+#reset {
+    width: 100%;
+    padding: 5px;
+    border-color: #00474B;
+    border-radius: 10px;
+    font-size: 1em;
+    color: #00474B;
+    font-weight: bold;
+    margin-top: 100px;
+}
